@@ -1,0 +1,9 @@
+*.pyc
+models/*
+results/*
+figure_scripts/output/*
+visualizations/*
+__pycache__
+.codex
+models_copy
+paper_audit

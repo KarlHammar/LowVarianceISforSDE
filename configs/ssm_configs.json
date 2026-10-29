@@ -1,0 +1,376 @@
+{
+    "default": {
+        "sde_config": "ou_1d",
+        "meas_config": "normal_1d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "ou_1d_von_mises": {
+        "sde_config": "ou_1d",
+        "meas_config": "von_mises_1d_kappa8",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "ou_1d_smt_10m": {
+        "sde_config": "ou_1d",
+        "meas_config": "normal_1d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.3,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "ou_2d_smt_10m": {
+        "sde_config": "ou_2d",
+        "meas_config": "normal_2d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.3,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0]
+        }
+    },
+    "ou_5d_smt_10m": {
+        "sde_config": "ou_5d",
+        "meas_config": "normal_5d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.3,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "ou_10d_smt_10m": {
+        "sde_config": "ou_10d",
+        "meas_config": "normal_10d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.3,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "ou_1d_low_smt_1m": {
+        "sde_config": "ou_1d",
+        "meas_config": "normal_1d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "ou_2d_low_smt_1m": {
+        "sde_config": "ou_2d",
+        "meas_config": "normal_2d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0]
+        }
+    },
+    "ou_5d_low_smt_1m": {
+        "sde_config": "ou_5d",
+        "meas_config": "normal_5d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "ou_10d_low_smt_1m": {
+        "sde_config": "ou_10d",
+        "meas_config": "normal_10d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "bimodal": {
+        "sde_config": "bimodal",
+        "meas_config": "normal_1d_std0p125",
+        "dt": 0.01,
+        "deltaT_meas": 1.5,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "bimodal_3meas": {
+        "sde_config": "bimodal",
+        "meas_config": "normal_1d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.5,
+        "num_meas": 3,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0]
+        }
+    },
+    "lorenz63_hard": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.5,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_easy": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std5",
+        "dt": 0.01,
+        "deltaT_meas": 1.5,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_smo3_close": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std5",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 3,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_smo3_medium": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std5",
+        "dt": 0.01,
+        "deltaT_meas": 0.4,
+        "num_meas": 3,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_smo3_far": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std5",
+        "dt": 0.01,
+        "deltaT_meas": 0.6,
+        "num_meas": 3,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_smo10": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std15",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz63_smo10_steady": {
+        "sde_config": "lorenz63",
+        "meas_config": "normal_3d_std15",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "stationary_empirical",
+            "mean": [0.0, 0.0, 0.0],
+            "burn_in": 20.0,
+            "bank_size": 1000000
+        }
+    },
+    "lorenz96_4d_1m": {
+        "sde_config": "lorenz96_4d",
+        "meas_config": "normal_lorenz96_4d_every4_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz96_8d_1m": {
+        "sde_config": "lorenz96_8d",
+        "meas_config": "normal_lorenz96_8d_every4_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz96_16d_1m": {
+        "sde_config": "lorenz96_16d",
+        "meas_config": "normal_lorenz96_16d_every4_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz96_32d_1m": {
+        "sde_config": "lorenz96_32d",
+        "meas_config": "normal_lorenz96_32d_every4_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "lorenz96_8d_10m": {
+        "sde_config": "lorenz96_8d",
+        "meas_config": "normal_lorenz96_8d_every4_std5",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_1masses_smo1": {
+        "sde_config": "spring_1masses",
+        "meas_config": "normal_spring_1m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0]
+        }
+    },
+    "spring_2masses_smo1": {
+        "sde_config": "spring_2masses",
+        "meas_config": "normal_spring_2m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_2masses_smo10": {
+        "sde_config": "spring_2masses",
+        "meas_config": "normal_spring_2m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_2masses_smo10_steady": {
+        "sde_config": "spring_2masses",
+        "meas_config": "normal_spring_2m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "gaussian",
+            "mean": [0.0, 0.0, 0.0, 0.0],
+            "cov": [
+                [2.203759322877, 0.513240846812, -0.5, -0.325961754669],
+                [0.513240846812, 2.062262904909, 0.325961754669, -0.5],
+                [-0.5, 0.325961754669, 4.135873298336, -1.128499493297],
+                [-0.325961754669, -0.5, -1.128499493297, 3.360420979924]
+            ]
+        }
+    },
+    "spring_5masses_smo1": {
+        "sde_config": "spring_5masses",
+        "meas_config": "normal_spring_5m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_5masses_smo2": {
+        "sde_config": "spring_5masses",
+        "meas_config": "normal_spring_5m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 2,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_5masses_smo5": {
+        "sde_config": "spring_5masses",
+        "meas_config": "normal_spring_5m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 5,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_5masses_smo10": {
+        "sde_config": "spring_5masses",
+        "meas_config": "normal_spring_5m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 0.2,
+        "num_meas": 10,
+        "init_config": {
+            "name": "fixed",
+            "mean": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        }
+    },
+    "spring_10masses_smo1": {
+        "sde_config": "spring_10masses",
+        "meas_config": "normal_spring_10m_pos_std1",
+        "dt": 0.01,
+        "deltaT_meas": 1.0,
+        "num_meas": 1,
+        "init_config": {
+            "name": "fixed",
+            "mean": [
+                0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+            ]
+        }
+    }
+}

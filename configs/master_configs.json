@@ -1,0 +1,7 @@
+{
+    "default": {
+        "nn_config": "multi_default",
+        "method_config": "WLogVar",
+        "ssm_config": "default"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "multi_default": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [64, 64],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [64, 64],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_2d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [128, 128],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [128, 128],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_3d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [192, 192],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [192, 192],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_4d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [256, 256],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [256, 256],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_5d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [320, 320],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [320, 320],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_8d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [512, 512],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [512, 512],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_10d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [640, 640],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [640, 640],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_16d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [1024, 1024],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [1024, 1024],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_20d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [1280, 1280],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [1280, 1280],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    },
+    "multi_default_32d": {
+        "Z_model": "Z_Network_multi",
+        "Z_model_config": {
+            "layers": [2048, 2048],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        },
+        "V0_model": "V0_Network_multi",
+        "V0_model_config": {
+            "layers": [2048, 2048],
+            "standardization": {"x_mean": 0, "x_std": 1, "y_mean": 0, "y_std": 1}
+        }
+    }
+}
