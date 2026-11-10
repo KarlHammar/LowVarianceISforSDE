@@ -146,17 +146,15 @@ def format_matrix(matrix, metric, EXPERIMENTS=EXPERIMENTS, METHOD_ORDER=METHOD_O
             
             background = '' if title == 'Spring 2D' else rank_background(score, color_ranks)
             
-            if not math.isfinite(value):
+            if not math.isfinite(value) or value > 1000:
                 cells[row][col] = background + '--'
                 continue
             
             text = format_value(value)
+            if title != 'Spring 2D' and not method.startswith('optimal(') and ranked and score == ranked[0]:
+                text = r'\mathbf{' + text + '}'
             if uncertainties[row][col] is not None:
-                text += rf' \pm {format_value(value, 100 * uncertainties[row][col])}'
-            
-            if title != 'Spring 2D' and not method.startswith('optimal(') and score in ranked[:2]:
-                command = 'mathbf' if score == ranked[0] else 'underline'
-                text = '\\' + command + '{' + text + '}'
+                text += rf'_{{\pm {format_value(value, 100 * uncertainties[row][col])}}}'
             cells[row][col] = background + '$' + text + '$'
     return cells
 
